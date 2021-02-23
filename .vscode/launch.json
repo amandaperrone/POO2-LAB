@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Poo2Application<poo2>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "sistema.poo2.Poo2Application",
+            "projectName": "poo2",
+            "args": ""
+        }
+    ]
+}

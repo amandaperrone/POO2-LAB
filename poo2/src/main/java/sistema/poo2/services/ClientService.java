@@ -18,11 +18,12 @@ public class ClientService {
 
     public List<ClientDTO> getClients() {
         
-        List<Client>    list = repo.getClients();
+        List<Client>    list = repo.findAll();
         List<ClientDTO> listDTO = new ArrayList<>();
 
         for (Client c: list){
             listDTO.add(new ClientDTO(c.getId(), c.getName()));
+            /* http://localhost:8080/h2-console/ */
         }
         return listDTO;
     }

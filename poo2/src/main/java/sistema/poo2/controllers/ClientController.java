@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import sistema.poo2.dto.ClientDTO;
-import sistema.poo2.entities.Client;
 import sistema.poo2.services.ClientService;
 
 @RestController

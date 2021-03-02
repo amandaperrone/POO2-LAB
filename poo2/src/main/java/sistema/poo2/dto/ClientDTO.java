@@ -1,5 +1,7 @@
 package sistema.poo2.dto;
 
+import sistema.poo2.entities.Client;
+
 public class ClientDTO {
     private Long Id;
     private String name;
@@ -12,7 +14,12 @@ public class ClientDTO {
         
     }
 
-    public Long getId() {
+    public ClientDTO(Client client) {
+        setId(client.getId());
+        setName(client.getName());
+	}
+
+	public Long getId() {
         return Id;
     }
 

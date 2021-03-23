@@ -8,6 +8,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import sistema.poo2.dto.ClientInsertDTO;
+
 @Entity
 @Table(name="TB_CLIENT") //define o nome. Se não tiver, a tabela ficaria automaticamente o nome da classe, no caso, "CLIENT"
 public class Client implements Serializable{
@@ -22,7 +24,15 @@ public class Client implements Serializable{
     
     private String address;
 
-    public Long getId() {
+    public Client() {
+	}
+
+    public Client(ClientInsertDTO insertDTO) { // tudo que for entidade JPA precisa de um construtor vazio
+        this.address = insertDTO.getAddress();
+        this.name = insertDTO.getName();
+	}
+
+	public Long getId() {
         return Id;
     }
 

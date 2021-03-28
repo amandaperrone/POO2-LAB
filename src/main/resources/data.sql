@@ -1,3 +1,15 @@
 INSERT INTO tb_client (name, address) VALUES ('João Antonio', 'Rua XV, 1212 – Sorocaba/SP');
 INSERT INTO tb_client (name, address) VALUES ('Maria Silva', 'Rua Tereza, 23 – Sorocaba/SP');
 INSERT INTO tb_client (name, address) VALUES ('Amanda Perrone', 'Rua Nove de Julho, 500 – Sorocaba/SP');
+INSERT INTO tb_client (name, address) VALUES ('Carla Silva', 'Rua Quintino Bocaiuva, 56 – Sorocaba/SP');
+INSERT INTO tb_client (name, address) VALUES ('Jéssica Souza', 'Rua Rio Branco, 100 – Sorocaba/SP');
+INSERT INTO tb_client (name, address) VALUES ('Gabriela Oliveira', 'Avenida Constantino Matucci, 698 – Sorocaba/SP');
+INSERT INTO tb_client (name, address) VALUES ('Pedro Paulo', 'Rua das Orquídes, 258 – Sorocaba/SP');
+INSERT INTO tb_client (name, address) VALUES ('Gustavo Moreira', 'Rua José Bonifácio, 74 – Sorocaba/SP');
+INSERT INTO tb_client (name, address) VALUES ('Hellen Rocha', 'Rua Papa João Paulo II, 986 – Sorocaba/SP');
+INSERT INTO tb_client (name, address) VALUES ('Everton Dias', 'Rua Mariele, 357 – Sorocaba/SP');
+INSERT INTO tb_client (name, address) VALUES ('Júlia Alves', 'Avenida João Paulo, 123 – Sorocaba/SP');
+INSERT INTO tb_client (name, address) VALUES ('Kerrolyn Silva', 'Rua Paula Freitas, 159 – Sorocaba/SP');
+INSERT INTO tb_client (name, address) VALUES ('Ana Paula', 'Rua Dom Pedro, 753 – Sorocaba/SP');
+INSERT INTO tb_client (name, address) VALUES ('Marcelo Luz', 'Rua Pará, 654 – Sorocaba/SP');
+INSERT INTO tb_client (name, address) VALUES ('Jonas Leite', 'Rua Rogério da Silva, 971 – Sorocaba/SP');
